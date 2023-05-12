@@ -1307,6 +1307,14 @@ p {
   font-size: 42px;
 }
 
+.paragraph {
+  text-align: justify;
+}
+
+.hide {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   h3 {
     font-size: 22px;
