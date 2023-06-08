@@ -529,7 +529,8 @@ p {
   margin-top: 40px;
   margin-bottom: 20px;
   font-family: Amalfi coast, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 400;
   line-height: 150%;
 }
 
@@ -641,16 +642,18 @@ p {
 
 .imginsta.margen._1 {
   background-image: url('../images/ig-photo2.jpg');
+  background-position: 50% 100%;
 }
 
 .imginsta.margen._2 {
-  background-image: url('../images/ig-photo4.jpg');
+  background-image: url('../images/planning-14.jpg');
+  background-position: 50% 100%;
 }
 
 .imginsta._1 {
   height: 250px;
   background-image: url('../images/ig-photo1.jpg');
-  background-position: 50%;
+  background-position: 50% 100%;
   background-size: cover;
   align-items: flex-end;
   display: flex;
@@ -658,8 +661,8 @@ p {
 
 .imginsta._2 {
   height: 250px;
-  background-image: url('../images/ig-photo3.jpg');
-  background-position: 50%;
+  background-image: url('../images/planning-13.jpg');
+  background-position: 50% 100%;
   background-size: cover;
   align-items: flex-end;
   display: flex;
@@ -669,8 +672,8 @@ p {
   height: 250px;
   -webkit-text-fill-color: inherit;
   object-fit: fill;
-  background-image: url('../images/ig-photo5.jpg');
-  background-position: 30%;
+  background-image: url('../images/planning-15.jpg');
+  background-position: 50%;
   background-size: cover;
   background-clip: border-box;
   align-items: flex-end;
@@ -1016,8 +1019,8 @@ p {
 .imagengrid {
   height: 475px;
   background-color: #d6d6d6;
-  background-image: url('../images/g1.jpg');
-  background-position: 50%;
+  background-image: url('../images/planning-2.jpg');
+  background-position: 50% 100%;
   background-size: cover;
   justify-content: flex-start;
   align-items: flex-end;
@@ -1031,30 +1034,32 @@ p {
 
 .imagengrid._2.g2 {
   background-image: url('../images/cam3.png');
+  background-position: 50% 100%;
 }
 
 .imagengrid._2.g3 {
-  background-image: url('../images/cam1.png');
+  background-image: url('../images/planning-3.jpg');
 }
 
 .imagengrid._2.g3.gc4 {
-  background-image: url('../images/gallery-photo-2.jpg');
+  background-image: url('../images/planning-11.jpg');
 }
 
 .imagengrid._2.g3.gc5 {
-  background-image: url('../images/gallery-photo-5.jpg');
+  background-image: url('../images/planning-12.jpg');
 }
 
 .imagengrid._2.g6 {
   background-image: url('../images/ig-photo4.jpg');
+  background-position: 50% 100%;
 }
 
 .imagengrid._2.g7 {
-  background-image: url('../images/paquete2.jpg');
+  background-image: url('../images/planning-5.jpg');
 }
 
 .imagengrid._2.g8 {
-  background-image: url('../images/g8.jpg');
+  background-image: url('../images/planning-6.jpg');
 }
 
 .imagengrid._2.s2 {
@@ -1073,11 +1078,11 @@ p {
 }
 
 .imagengrid._2.gc1 {
-  background-image: url('../images/gallery-photo-1.jpg');
+  background-image: url('../images/planning-8.jpg');
 }
 
 .imagengrid._2.gc2 {
-  background-image: url('../images/gallery-photo-3.jpg');
+  background-image: url('../images/planning-9.jpg');
 }
 
 .imagengrid._3 {
@@ -1093,15 +1098,17 @@ p {
 }
 
 .imagengrid.g4.ver2 {
-  background-image: url('../images/g4.jpg');
+  background-image: url('../images/planning-7.jpg');
 }
 
 .imagengrid.g4.gc3 {
-  background-image: url('../images/gallery-photo-4.jpg');
+  background-image: url('../images/planning-10.jpg');
+  background-position: 48% 100%;
+  background-size: auto 103%;
 }
 
 .imagengrid.g5 {
-  background-image: url('../images/g5.jpg');
+  background-image: url('../images/planning-4.jpg');
 }
 
 .imagengrid.s1 {
@@ -1240,6 +1247,7 @@ p {
   padding: 2px 5px;
   font-family: Montserrat, sans-serif;
   font-size: 11px;
+  display: none;
 }
 
 .tag._2 {
@@ -1819,11 +1827,11 @@ p {
   }
 
   .slider {
-    height: 75vh;
+    height: 52vh;
   }
 
   .slide1 {
-    background-position: 50%;
+    background-position: 58%;
   }
 
   .c_interno {
@@ -1832,6 +1840,7 @@ p {
 
   .div_tipodeboda {
     padding: 0 20px 10px;
+    top: 181px;
   }
 
   .s_4 {
@@ -1906,15 +1915,22 @@ p {
   }
 
   .imginsta.margen._1, .imginsta.margen._2 {
+    background-position: 50% 100%;
     margin-top: 0;
   }
 
-  .imginsta._1, .imginsta._2 {
+  .imginsta._1 {
+    height: 120px;
+    background-position: 50% 100%;
+  }
+
+  .imginsta._2 {
     height: 120px;
   }
 
   .imginsta._3 {
-    height: 200px;
+    height: 250px;
+    background-position: 50% 100%;
   }
 
   .container {
@@ -1994,7 +2010,7 @@ p {
   }
 
   .slide-6 {
-    background-position: 60%;
+    background-position: 85%;
   }
 
   .imghead {
